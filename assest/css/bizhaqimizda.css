@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+
+
+header {
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/study-abroad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
+
+header .h111 {
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+header .h111 p {
+    margin: 20px;
+    font-size: 3rem;
+    color: #fff;
+}
+header .h111 p:hover {
+   text-shadow: 5px 5px 10px white;
+   transform: translateY(-5px);
+   transition: 0.5s;
+}
+
+header h1 {
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 2rem;
+    animation: h1-1 5s infinite linear;
+    text-transform: uppercase;
+    margin-right: 650px;
+}
+
+@keyframes h1-1 {
+    0% {
+        transform: scale(0.8);
+
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+section h1 {
+    text-align: center;
+    margin: 40px;
+    color: rgb(4, 95, 95);
+    font-size: 2rem;
+}
+
+section .call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    word-spacing: 5px;
+}
+
+section .call img {
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 15px black;
+}
+section .call h3 {
+    font-size: 2rem;
+}
+
+section .call p {
+    width: 400px;
+    margin: 10px 0 0 0;
+    font-size: 1.5rem;
+}
+
+section .call1 {
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/biz.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    margin: 30px 0 0 0;
+}
+.call1 .sbs {
+    background-color: #fff;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px black;
+}
+.call1 .sbs {
+    font-size: 3rem;
+}
+.call1 .sbs p {
+    color: #000000;
+    margin: 40px;
+    font-size: 2rem;
+}
+
+
+

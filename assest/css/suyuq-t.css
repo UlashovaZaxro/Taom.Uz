@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    animation: h1-1 5s infinite linear;
+    color: firebrick;
+    font-size: 5rem;
+}
+
+@keyframes h1-1 {
+    0% {
+        transform: scale(0.8);
+
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+.box {
+    margin: 0px 100px;
+}
+
+.box .three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 100px;
+}
+
+.box .three .row {
+    position: relative;
+    flex: 1 1 17rem;
+    box-shadow: 0 4px 4px black;
+    border-radius: 0.5rem;
+    height: auto;
+}
+
+.box .three .row:hover {
+    transform: translateY(-10px);
+    box-shadow: 15px 15px 20px black;
+}
+
+.box .three .row img {
+    width: 100%;
+    height: 600px;
+    border-radius: 0.5rem 0.5rem 0 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .three .row img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box .three .row img:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.box .three .row h3 {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 0.5rem 0.5rem;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    flex: 1 1 17rem;
+}
